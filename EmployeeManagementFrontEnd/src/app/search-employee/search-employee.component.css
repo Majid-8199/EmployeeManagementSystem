@@ -1,0 +1,63 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.deletebutton{
+    width: 150px; /* Example width */
+    height: 40px;
+    margin-top: 22px;
+    margin-right: 20px;
+    color: white;
+    background-color: rgb(55, 97, 159);
+    border: none;
+}
+.deletebutton:hover{
+    color: rgb(55, 97, 159);
+    background-color: white;
+}
+.deletebutton:active{
+    background-color: rgb(55, 97, 159);
+    color: white;
+}
+.search{
+    margin: 10px;
+}
+.search button{
+    height: 25px;
+    width: 80px;
+    color: white;
+    background-color: rgb(55, 97, 159);
+    border: none;
+}
+.search button:hover{
+    color: rgb(55, 97, 159);
+    background-color: white;
+}
+.search button:active{
+    background-color: rgb(55, 97, 159);
+    color: white;
+}
+.search input{
+    height: 20px;
+    margin-right: 5px;
+    border: 1px solid rgb(55, 97, 159);
+}
+.bottom{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.bottom ul {
+    list-style: none;
+    padding: 20;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+.bottom li {
+    margin-bottom: 20px;
+}
+h1{
+    color: rgb(55, 97, 159);
+    padding-left: 20px;
+}

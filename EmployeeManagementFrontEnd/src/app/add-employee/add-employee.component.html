@@ -1,0 +1,31 @@
+<div class="container">
+    <form #myform="ngForm" (submit)="addEmployee(myform.value)">
+        <div>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" ngModel required>
+        </div>
+        <div>
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" ngModel required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" ngModel required>
+        </div>
+        <div>
+            <label for="ph">Mobile:</label>
+            <input type="number" id="ph" name="ph" ngModel required>
+        </div>
+        <div>
+            <label for="jobrole">Job Role:</label>
+            <input type="text" id="jobrole" name="jobrole" ngModel required>
+        </div>
+        <div>
+            <label for="salary">Salary:</label>
+            <input type="number" id="salary" name="salary" ngModel required>
+        </div>
+        <div>
+            <input type="submit" value="Add Employee" >
+        </div>
+    </form>
+</div>

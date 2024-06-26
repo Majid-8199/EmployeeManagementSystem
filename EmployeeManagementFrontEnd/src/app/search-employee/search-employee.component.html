@@ -1,0 +1,22 @@
+<div class="head">
+    <h1>Employee Details</h1>
+    <div>
+        <button class="deletebutton" (click)="updateEmployee(emp?.id)">Update Employee</button>
+        <button class="deletebutton" (click)="deleteEmployee(emp?.id)">Delete Employee</button>
+    </div>
+</div>
+<div class="search">
+    <input [(ngModel)]="EmployeeId" type="type" placeholder="Enter Book Name">
+    <button (click)="searchEmployee(EmployeeId)">Search</button>
+</div>
+<div class="bottom">
+    <ul>
+        <li>Id: {{emp?.id}}</li>
+        <li>First Name: {{emp?.firstname}}</li>
+        <li>Last Name: {{emp?.lastname}}</li>
+        <li>Email: {{emp?.email}}</li>
+        <li>Mobile: {{emp?.ph}}</li>
+        <li>Job Role: {{emp?.jobrole}}</li>
+        <li>Salary: {{emp?.salary}}</li>
+    </ul>
+</div>
